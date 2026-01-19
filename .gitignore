@@ -1,0 +1,40 @@
+# Arduino / ESP32
+*.hex
+*.elf
+*.bin
+*.o
+*.d
+*.a
+*.ko
+*.so
+*.map
+
+# Build Directories
+build/
+output/
+bin/
+obj/
+debug/
+release/
+
+# ESP32 specific
+sdkconfig
+sdkconfig.old
+
+# Arduino IDE
+.arduino/
+.settings/
+.vscode/
+.gcc-flags.json
+
+# Local Configuration
+secrets.h
+local.properties
+config.json
+games.json
+wpa_supplicant.conf
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
